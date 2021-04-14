@@ -4,7 +4,7 @@ import { Hero } from './Hero'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCoins, faRecycle, faFire, faMoneyBill, faUser, faCheck, faHourglass } from '@fortawesome/free-solid-svg-icons'
 import { StyledButton } from './commonStyled'
-import safe from './shield.png'
+import safe from './Shield.png'
 import hold from './wallet.png'
 import profit from './chart.png'
 
