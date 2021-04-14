@@ -297,7 +297,7 @@ export function Dashboard() {
             <div className="items one">
               <img src={safe} alt=""/>
               <h3>Completely Secured</h3>
-              <p>Audited smart contract (within first week after launch), no big devs holdings (all burnt from start), Liquidity Pool locked for 5 years!</p>
+              <p>Audited smart contract (within first week after launch), no big devs holdings (all burnt from start), Liquidity Pool locked for 1 years!</p>
             </div>
             <div className="items two">
               <img src={hold} alt=""/>
