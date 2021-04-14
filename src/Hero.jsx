@@ -95,7 +95,7 @@ export function Hero() {
         <h1>
           Welcome to Lunar Eclipse.
           <StyledNotVisibleXS>
-            <span>Truly a safe token, let's moon.</span>
+            <span>Your next moonshot. 4% redistributed 4% liquidity, safe, no BS.</span>
           </StyledNotVisibleXS>
         </h1>
         <StyledParticleCont>
