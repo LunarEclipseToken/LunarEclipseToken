@@ -31,15 +31,15 @@ export function Releases() {
       <SmallHero title={"Press releases."} />
       <StyledGrid>
         <Article 
-          title="Eclipse Token Contract Initiated"
-          description="Today we initiated the development of the unique Eclipse Token Contract. A carefully planned out process of an experienced team of Crypto-developers."
+          title="Lunar Eclipse Token Contract Initiated"
+          description="Today we initiated the development of the unique Lunar Eclipse Token Contract. A carefully planned out process of an experienced team of Crypto-developers."
           link="/eclipse-token-contract-initiated/"
           imgSrc={contractImg}
         />
         <Article 
-          title="Lorem Ipsum"
-          description="Today we initiated the development of the unique Eclipse Token Contract. A carefully planned out process of an experienced team of Crypto-developers."
-          link="/lorem-ipsum/"
+          title="Website is live!"
+          description="Webapp is fully developped and live! Responsive, made on react and open source, altought the design is heavily imspired by our parent token Eclipse. The development of this app has been made from scratch using different technologies"
+          link="/website-launch/"
           imgSrc={crypto}
         />
       </StyledGrid> 

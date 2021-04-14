@@ -146,19 +146,19 @@ export function Menu({ menuOpen, onclick }) {
       <StyledMenuBlock>
         <StyledMenuTitle>Important links</StyledMenuTitle>
         <StyledMenuItems>
-          <a href="#">
+          <a href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x18dB09873c18D3b8D33C8EAea321a909DeaDe87e">
             <img src={pancakeSvg} alt="Pancakeswap" />
             <span>Buy on Pancakeswap</span>
           </a>
         </StyledMenuItems>
         <StyledMenuItems>
-          <a href="#">
+          <a href="https://poocoin.app/0x18dB09873c18D3b8D33C8EAea321a909DeaDe87e">
             <FontAwesomeIcon icon={faChartLine}/>
             <span>Chart</span>
           </a>
         </StyledMenuItems>
         <StyledMenuItems>
-          <a href="#">
+          <a href="https://bscscan.com/token/0x18dB09873c18D3b8D33C8EAea321a909DeaDe87e">
             <FontAwesomeIcon icon={faChartBar}/>
             <span>BSC Scan</span>
           </a>
@@ -167,32 +167,32 @@ export function Menu({ menuOpen, onclick }) {
       <StyledMenuBlock>
         <StyledMenuTitle>Socials</StyledMenuTitle>
         <StyledMenuItems>
-          <a href="#">
+          <a href="https://t.me/lunareclipsetoken">
             <FontAwesomeIcon icon={faTelegramPlane}/>
             <span>Telegram</span>
           </a>
         </StyledMenuItems>
         <StyledMenuItems>
-          <a href="#">
+          
             <FontAwesomeIcon icon={faTwitter}/>
             <span>Twitter</span>
-          </a>
+          
         </StyledMenuItems>
         <StyledMenuItems>
-          <a href="#">
+          <a href="https://reddit.com/r/lunareclipsetoken">
             <FontAwesomeIcon icon={faReddit}/>
             <span>Reddit</span>
           </a>
         </StyledMenuItems>
         <StyledMenuItems>
-          <a href="#">
+          
             <FontAwesomeIcon icon={faDiscord}/>
             <span>Discord</span>
-          </a>
+         
         </StyledMenuItems>
       </StyledMenuBlock>
       <StyledButtonsCont>
-        <a href="#">
+        <a href="https://bscscan.com/token/0x18dB09873c18D3b8D33C8EAea321a909DeaDe87e">
           <StyledButton>
             <img src={bscscan} alt="bscscan-logo"/>
           </StyledButton>

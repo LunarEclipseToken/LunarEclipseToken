@@ -23,13 +23,13 @@ export function Routes() {
             ]}
           />
         </Route>
-        <Route path="/lorem-ipsum/">
+        <Route path="/website-launch/">
           <ArticlePage
-              title="Lorem Ipsum"
+              title="Webapp is fully developped and live! "
               date="Posted on February 27, 2021"
               paragraph={[
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur, leo ac convallis venenatis, eros odio condimentum ipsum, a ultricies turpis massa eget dui. Donec purus enim, convallis sed quam nec, tincidunt semper magna. Sed ullamcorper, dui quis dapibus rhoncus, magna tortor bibendum ante, ut tincidunt dolor erat sit amet dolor. Fusce purus dui, feugiat id magna ornare, tempor elementum magna.",
-                "Proin eget sem sagittis, gravida ex vitae, porta neque. Proin at auctor felis, et semper dui. Morbi ut mi purus. Pellentesque laoreet lacus ante, vitae suscipit lorem tristique eu.",
+                "Webapp is fully developped and live! Responsive, made on react and open source, altought the design is heavily imspired by our parent token Eclipse. The development of this app has been made from scratch using different technologies.",
+                "Some parts are still missing but we'll there. Expect to see a live chart of the token on the home page and other live metrics.",
               ]}
             />
         </Route>
