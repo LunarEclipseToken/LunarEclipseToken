@@ -227,7 +227,7 @@ export function Dashboard() {
                 </div>
                 <div>Max Supply</div>
               </div>
-              <div className="right">1,000,000,000,000,000</div>
+              <div className="right">100,000,000,000,000</div>
             </div>
             <div className="flex">
               <div className="left">
@@ -236,7 +236,7 @@ export function Dashboard() {
                 </div>
                 <div>Circulating</div>
               </div>
-              <div className="right">720,093,318,120,919</div>
+              <div className="right">60,000,000,000,000</div>
             </div>
             <div className="flex">
               <div className="left">
@@ -245,7 +245,7 @@ export function Dashboard() {
                 </div>
                 <div>Burned</div>
               </div>
-              <div className="right">279,906,681,879,081</div>
+              <div className="right">40,000,000,000,000</div>
             </div>
             <div className="flex">
               <div className="left">
@@ -254,7 +254,7 @@ export function Dashboard() {
                 </div>
                 <div>Marketcap</div>
               </div>
-              <div className="right">$7,132,960</div>
+              <div className="right">$0</div>
             </div>
             <div className="flex">
               <div className="left">
@@ -263,7 +263,7 @@ export function Dashboard() {
                 </div>
                 <div>Holders</div>
               </div>
-              <div className="right">4,343</div>
+              <div className="right">1</div>
             </div>
           </div>
         </StyledArticle>
