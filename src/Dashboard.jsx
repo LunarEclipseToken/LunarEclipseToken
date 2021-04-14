@@ -291,23 +291,23 @@ export function Dashboard() {
         <StyledBigArticle>
           <h4>
             Points of interest
-            <small>Reasons why to own Eclipse</small>
+            <small>Reasons why to own LunarEclipse</small>
           </h4>
           <div className="flexContent">
             <div className="items one">
               <img src={safe} alt=""/>
               <h3>Completely Secured</h3>
-              <p>Audited smart contract, no big devs holdings (all burnt from start), Liquidity Pool locked for 5 years!</p>
+              <p>Audited smart contract (within first week after launch), no big devs holdings (all burnt from start), Liquidity Pool locked for 5 years!</p>
             </div>
             <div className="items two">
               <img src={hold} alt=""/>
               <h3>Rewarding for Holders</h3>
-              <p>Keep holding your Eclipse tokens, and you will earn more. For each transaction, a 3% fee is sent back to our beloved holders.</p>
+              <p>Keep holding your LunarEclipse tokens, and you will earn more. For each transaction, a 3% fee is sent back to our beloved holders.</p>
             </div>
             <div className="items three">
               <img src={profit} alt=""/>
               <h3>Inventive Construction</h3>
-              <p>With a combination of burning, automatic LP filling and rewarding of holders, Eclipse is set to rise!</p>
+              <p>With a combination of burning, automatic LP filling and rewarding of holders, LunarEclipse is set to rise!</p>
             </div>
           </div>
         </StyledBigArticle>
@@ -345,7 +345,7 @@ export function Dashboard() {
           <div className="row">
           <div className="icon notComplete" />
 
-            <div className="text">Audit Eclipse Smart Contract </div>
+            <div className="text">Audit LunarEclipse Smart Contract </div>
           </div>
           <div className="row">
           <div className="icon notComplete" />
