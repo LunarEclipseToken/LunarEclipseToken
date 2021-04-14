@@ -52,7 +52,7 @@ export function Header({ onclick }) {
     <StyledHeaderContainer>
       <img className="logo" src={logo} alt="lunar-eclipse-logo" />
       <StyledNotVisibleXS>
-        <a href="#">
+        <a href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x18dB09873c18D3b8D33C8EAea321a909DeaDe87e">
           <StyledPancakeButton>
             <img src={pancakeSvg} alt="Pancakeswap" />
             BUY ON PANCAKESWAP
