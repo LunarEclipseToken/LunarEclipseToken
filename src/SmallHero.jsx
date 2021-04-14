@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 import Particles from 'react-particles-js'
-import { StyledNotVisibleXS } from './commonStyled'
 import hero from './hero.jpg'
 
 
@@ -45,8 +44,7 @@ const params = (isMobile) => ({
 
 const StyledHero = styled.header`
   width: 100%;
-  height: auto;
-  min-height: 320px;
+  height: 100px;
   border-radius: 8px;
   background-image: linear-gradient(141deg, rgb(158 144 144 / 22%), #943f3f), url(${hero});
   background-size: cover;
@@ -55,18 +53,15 @@ const StyledHero = styled.header`
   display: flex;
   align-items: center;
   box-shadow: 10px 20px 20px 0px rgba(35, 11, 11, 1);
-  grid-column: 1 / 4;
-  grid-row: 1;
   margin-bottom: 10px;
-  text-align: center;
   color: white;
-  justify-content: center;
+  padding: 0 15px;
   position: relative;
   overflow: hidden;
   h1 {
-    font-size: 70px;
+    font-size: 40px;
     font-weight: 800;
-    letter-spacing: -3px;
+    letter-spacing: -1px;
     line-height: 40px;
     @media (max-width: 1024px) {
       line-height: 65px;
@@ -87,22 +82,18 @@ const StyledParticleCont = styled.span`
   height: auto;
 `
 
-export function Hero() {
+export function SmallHero({ title }) {
   const isMobile = window.screen.width < 900;
   return (
     <>
       <StyledHero>
         <h1>
-          Welcome to Lunar Eclipse.
-          <StyledNotVisibleXS>
-            <span>Truly a safe token, let's moon.</span>
-          </StyledNotVisibleXS>
+          {title}
         </h1>
         <StyledParticleCont>
           <Particles params={params(isMobile)} />
         </StyledParticleCont>
       </StyledHero>
-      
     </>
   )
 }

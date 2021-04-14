@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import styled, { createGlobalStyle } from 'styled-components'
+import { BrowserRouter as Router } from 'react-router-dom'
 import { BreedingRhombusSpinner } from 'react-epic-spinners'
 import { Header } from './Header'
 import { Menu } from './Menu'
@@ -32,24 +33,26 @@ function App() {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    const timer = setTimeout(() => setLoading(false), 3000)
+    const timer = setTimeout(() => setLoading(false), 2500)
     return () => clearTimeout(timer);
   }, [setLoading])
 
   return (
     <StyledAppContainer>
-      <GlobalStyle />
-      {loading ? (
-        <StyledLoaderContainer>
-          <BreedingRhombusSpinner color="#bd886a" />
-        </StyledLoaderContainer>
-      ) : (
-        <>
-          <Header onclick={() => setMenuOpen(!menuOpen)}/>
-          <Menu menuOpen={menuOpen}/>
-          <Content />
-        </>
-      )}
+      <Router>
+        <GlobalStyle />
+        {loading ? (
+          <StyledLoaderContainer>
+            <BreedingRhombusSpinner color="#bd886a" />
+          </StyledLoaderContainer>
+        ) : (
+          <>
+            <Header onclick={() => setMenuOpen(!menuOpen)}/>
+            <Menu menuOpen={menuOpen} onclick={() => setMenuOpen(false)}/>
+            <Content />
+          </>
+        )}
+      </Router>
     </StyledAppContainer>
   );
 }

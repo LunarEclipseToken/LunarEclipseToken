@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { StyledNotVisibleXS, StyledVisibleXS, StyledButton } from './commonStyled'
 import pancakeSvg from './pancake.svg'
-import logo from './LunarEclipseRed.png'
+import logo from './LunarEclipseDark.png'
 
 
 const StyledHeaderContainer = styled.header`

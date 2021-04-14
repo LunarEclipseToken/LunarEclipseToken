@@ -5,6 +5,7 @@ import { faTachometerAlt, faChartBar, faChartLine, faRss, faTrophy } from '@fort
 import { faDiscord, faReddit, faTelegramPlane, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import pancakeSvg from './pancake.svg'
 import bscscan from './bscscan-logo.svg'
+import { Link } from 'react-router-dom'
 
 const StyledMenuContainer = styled.div`
   position: fixed;
@@ -118,28 +119,28 @@ const StyledButton = styled.button`
   }
 `
 
-export function Menu({ menuOpen }) {
+export function Menu({ menuOpen, onclick }) {
   return (
     <StyledMenuContainer menuOpen={menuOpen}>
       <StyledMenuBlock>
         <StyledMenuTitle className="top">Website navigation</StyledMenuTitle>
-        <StyledMenuItems>
-          <a href="#">
+        <StyledMenuItems onClick={onclick}>
+          <Link to="/">
             <FontAwesomeIcon icon={faTachometerAlt}/>
             <span>Dashboard</span>
-          </a>
+          </Link>
         </StyledMenuItems>
-        <StyledMenuItems>
-          <a href="#">
+        <StyledMenuItems onClick={onclick}>
+          <Link to="/press-releases/">
             <FontAwesomeIcon icon={faRss}/>
             <span>Releases</span>
-          </a>
+          </Link>
         </StyledMenuItems>
-        <StyledMenuItems>
-          <a href="#">
+        <StyledMenuItems onClick={onclick}>
+          <Link to="/contests/">
             <FontAwesomeIcon icon={faTrophy}/>
             <span>Contests</span>
-          </a>
+          </Link>
         </StyledMenuItems>
       </StyledMenuBlock>
       <StyledMenuBlock>
