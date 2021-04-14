@@ -152,7 +152,7 @@ export function Menu({ menuOpen, onclick }) {
           </a>
         </StyledMenuItems>
         <StyledMenuItems>
-          <a href="https://poocoin.app/0x18dB09873c18D3b8D33C8EAea321a909DeaDe87e">
+          <a href="https://poocoin.app/tokens/0x18dB09873c18D3b8D33C8EAea321a909DeaDe87e">
             <FontAwesomeIcon icon={faChartLine}/>
             <span>Chart</span>
           </a>
