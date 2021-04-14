@@ -282,7 +282,7 @@ export function Dashboard() {
             </i>
             
           </p>
-          <a href="#">
+          <a href="https://dxsale.app/app/pages/defipresale?saleID=1143&chain=BSC">
             <StyledButton>
               DxSale pre-launch
             </StyledButton>

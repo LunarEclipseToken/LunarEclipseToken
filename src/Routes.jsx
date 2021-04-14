@@ -29,7 +29,7 @@ export function Routes() {
               date="Posted on February 27, 2021"
               paragraph={[
                 "Webapp is fully developped and live! Responsive, made on react and open source, altought the design is heavily imspired by our parent token Eclipse. The development of this app has been made from scratch using different technologies.",
-                "Some parts are still missing but we'll there. Expect to see a live chart of the token on the home page and other live metrics.",
+                "Some parts are still missing but we'll get there. Expect to see a live chart of the token on the home page and other live metrics.",
               ]}
             />
         </Route>
