@@ -269,20 +269,22 @@ export function Dashboard() {
         </StyledArticle>
         <StyledArticle>
           <h4>
-            Audit by solidity.finance
-            <small>100% Passed</small>
+            DxSale Launch start!
+            <small>0% Passed</small>
           </h4>
           <p>
             <i>
-              "Eclipse is a new competitor in the meme-coin space that has gained a large community following in a short timeframe.
-              <br/><br/>
-              No security issues were identified in our analysis."
+              LunarEclipse fair launch started. let's reach the presale goal!
+              <br/>
+            
+              <br/>
+              
             </i>
-            <span className="bolder">- solidity.finance</span>
+            
           </p>
           <a href="#">
             <StyledButton>
-              Read full analysis
+              DxSale pre-launch
             </StyledButton>
           </a>
         </StyledArticle>
@@ -315,58 +317,48 @@ export function Dashboard() {
             <small>Trace our work</small>
           </h4>
           <div className="row">
-            <div className="icon complete">
-              <FontAwesomeIcon icon={faCheck} />
-            </div>
-            <div className="text">Presale live on DXSales <span>Completed</span></div>
-          </div>
-          <div className="row">
-            <div className="icon complete">
-              <FontAwesomeIcon icon={faCheck} />
-            </div>
-            <div className="text">Presale sold out <span>Completed</span></div>
-          </div>
-          <div className="row">
-            <div className="icon complete">
-              <FontAwesomeIcon icon={faCheck} />
-            </div>
-            <div className="text">Listing on PANCAKESWAP <span>Completed</span></div>
-          </div>
-          <div className="row">
-            <div className="icon complete">
-              <FontAwesomeIcon icon={faCheck} />
-            </div>
-            <div className="text">Marketing on Poocoin <span>Live now</span></div>
-          </div>
-          <div className="row">
-            <div className="icon complete">
-              <FontAwesomeIcon icon={faCheck} />
-            </div>
-            <div className="text">Reach 1000 holders <span>Completed</span></div>
-          </div>
-          <div className="row">
-            <div className="icon complete">
-              <FontAwesomeIcon icon={faCheck} />
-            </div>
-            <div className="text">Audit Eclipse Smart Contract <span>Completed</span></div>
-          </div>
-          <div className="row">
-            <div className="icon complete">
-              <FontAwesomeIcon icon={faCheck} />
-            </div>
-            <div className="text">Reach 3000 holders <span>Completed</span></div>
-          </div>
-          <div className="row">
             <div className="icon pending">
               <FontAwesomeIcon icon={faHourglass} />
             </div>
-            <div className="text">Launch holder contest ($1000) <span className="orange">Contest live</span></div>
+            <div className="text">Presale live on DXSales <span className="orange">In progress</span></div>
           </div>
           <div className="row">
-            <div className="icon pending">
-              <FontAwesomeIcon icon={faHourglass} />
-            </div>
-            <div className="text">Litepaper released <span className="orange">In progress</span></div>
+          <div className="icon notComplete" />
+
+            <div className="text">Presale sold out </div>
+          </div>
+          <div className="row">
+          <div className="icon notComplete" />
+
+            <div className="text">Listing on PANCAKESWAP </div>
+          </div>
+          <div className="row">
+          <div className="icon notComplete" />
+
+            <div className="text">Marketing on Poocoin </div>
+          </div>
+          <div className="row">
+          <div className="icon notComplete" />
+
+            <div className="text">Reach 1000 holders </div>
+          </div>
+          <div className="row">
+          <div className="icon notComplete" />
+
+            <div className="text">Audit Eclipse Smart Contract </div>
+          </div>
+          <div className="row">
+          <div className="icon notComplete" />
+
+            <div className="text">Reach 3000 holders </div>
+          </div>
+          <div className="row">
+          <div className="icon notComplete" />
+            <div className="text">Launch holder contest ($1000) </div>
+          </div>
+          <div className="row">
+          <div className="icon notComplete" />
+            <div className="text">Litepaper released </div>
           </div>
           <div className="row">
             <div className="icon notComplete" />
