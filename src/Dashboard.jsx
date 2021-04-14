@@ -302,7 +302,7 @@ export function Dashboard() {
             <div className="items two">
               <img src={hold} alt=""/>
               <h3>Rewarding for Holders</h3>
-              <p>Keep holding your LunarEclipse tokens, and you will earn more. For each transaction, a 3% fee is sent back to our beloved holders.</p>
+              <p>Keep holding your LunarEclipse tokens, and you will earn more. For each transaction, a 4% fee is sent back to our beloved holders.</p>
             </div>
             <div className="items three">
               <img src={profit} alt=""/>
