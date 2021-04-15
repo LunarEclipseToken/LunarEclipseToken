@@ -317,26 +317,27 @@ export function Dashboard() {
             <small>Trace our work</small>
           </h4>
           <div className="row">
-            <div className="icon pending">
-              <FontAwesomeIcon icon={faHourglass} />
+            <div className="icon complete">
+              <FontAwesomeIcon icon={faCheck} />
             </div>
-            <div className="text">Presale live on DXSales <span className="orange">In progress</span></div>
+            <div className="text">Presale live on DXSales <span>Done</span></div>
+          </div>
+          <div className="row">
+          <div className="icon complete" />
+          <FontAwesomeIcon icon={faCheck} />  
+          </div>
+            <div className="text">Presale sold out <span>92BNB raised</span></div>
+        
+          <div className="row">
+          <div className="icon complete" />
+
+            <div className="text">Listing on PANCAKESWAP  <span>Completed</span> </div>
           </div>
           <div className="row">
           <div className="icon notComplete" />
-
-            <div className="text">Presale sold out </div>
+          <FontAwesomeIcon icon={faCheck} /> 
           </div>
-          <div className="row">
-          <div className="icon notComplete" />
-
-            <div className="text">Listing on PANCAKESWAP </div>
-          </div>
-          <div className="row">
-          <div className="icon notComplete" />
-
             <div className="text">Marketing on Poocoin </div>
-          </div>
           <div className="row">
           <div className="icon notComplete" />
 
