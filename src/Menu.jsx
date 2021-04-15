@@ -179,9 +179,10 @@ export function Menu({ menuOpen, onclick }) {
           </a>
         </StyledMenuItems>
         <StyledMenuItems>
-          
+          <a href="https://twitter.com/LECLToken">
             <FontAwesomeIcon icon={faTwitter}/>
             <span>Twitter</span>
+            </a>
           
         </StyledMenuItems>
         <StyledMenuItems>
