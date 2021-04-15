@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTachometerAlt, faChartBar, faChartLine, faRss, faTrophy } from '@fortawesome/free-solid-svg-icons'
-import { faDiscord, faReddit, faTelegramPlane, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faDiscord, faReddit, faTelegramPlane, faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons'
 import pancakeSvg from './pancake.svg'
 import bscscan from './bscscan-logo.svg'
 import { Link } from 'react-router-dom'
@@ -166,6 +166,12 @@ export function Menu({ menuOpen, onclick }) {
       </StyledMenuBlock>
       <StyledMenuBlock>
         <StyledMenuTitle>Socials</StyledMenuTitle>
+        <StyledMenuItems>
+          <a href="https://github.com/LunarEclipseToken?tab=repositories">
+            <FontAwesomeIcon icon={faGithub}/>
+            <span>Github</span>
+          </a>
+        </StyledMenuItems>
         <StyledMenuItems>
           <a href="https://t.me/lunareclipsetoken">
             <FontAwesomeIcon icon={faTelegramPlane}/>
