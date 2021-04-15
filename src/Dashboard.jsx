@@ -323,15 +323,16 @@ export function Dashboard() {
             <div className="text">Presale live on DXSales <span>Done</span></div>
           </div>
           <div className="row">
-          <div className="icon complete" />
-          <FontAwesomeIcon icon={faCheck} />  
+            <div className="icon complete">
+              <FontAwesomeIcon icon={faCheck} />
+            </div>
+            <div className="text">Presale sold out  <span>92BNB raised</span></div>
           </div>
-            <div className="text">Presale sold out <span>92BNB raised</span></div>
-        
           <div className="row">
-          <div className="icon complete" />
-
-            <div className="text">Listing on PANCAKESWAP  <span>Completed</span> </div>
+            <div className="icon complete">
+              <FontAwesomeIcon icon={faCheck} />
+            </div>
+            <div className="text">Listing on PANCAKESWAP   <span>Completed</span></div>
           </div>
           <div className="row">
           <div className="icon notComplete" />
