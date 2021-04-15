@@ -191,10 +191,10 @@ export function Menu({ menuOpen, onclick }) {
           </a>
         </StyledMenuItems>
         <StyledMenuItems>
-          
+          <a href="https://discord.gg/nnuARWP">
             <FontAwesomeIcon icon={faDiscord}/>
             <span>Discord</span>
-         
+            </a>
         </StyledMenuItems>
       </StyledMenuBlock>
       <StyledButtonsCont>
