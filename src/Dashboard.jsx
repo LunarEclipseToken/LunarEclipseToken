@@ -212,7 +212,7 @@ export function Dashboard() {
             About Lunar Eclipse
             <small>Brief description</small>
           </h4>
-          <p>We are tired of all the scams that happen among tokens. So we decided to take matters into our own hands. That's why we created ECLIPSE, with the intention of being 100% safe from rug pulls. How? Because we, the devs have no rugs to pull. This token is for you, let's moon.</p>
+          <p>We are tired of all the scams that happen among tokens. So we decided to take matters into our own hands. That's why we created LunarEclipse, the son of the <a href="https://eclipsetoken.org/">Eclipse token</a> which is the son of <a href="https://xspace.finance/">xpace token</a> which is a another fork of another fork, with the intention of being 100% safe from rug pulls. How? Because we, the devs have no rugs to pull. This token is for you, let's moon.</p>
         </StyledArticle>
         <StyledArticle>
           <h4>
