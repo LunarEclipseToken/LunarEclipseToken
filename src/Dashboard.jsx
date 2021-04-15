@@ -336,9 +336,9 @@ export function Dashboard() {
           </div>
           <div className="row">
           <div className="icon notComplete" />
-          <FontAwesomeIcon icon={faCheck} /> 
+
+            <div className="text">Marketing on poocoin </div>
           </div>
-            <div className="text">Marketing on Poocoin </div>
           <div className="row">
           <div className="icon notComplete" />
 
