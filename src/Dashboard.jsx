@@ -270,11 +270,11 @@ export function Dashboard() {
         <StyledArticle>
           <h4>
             DxSale Launch start!
-            <small>0% Passed</small>
+            <small>100% Passed</small>
           </h4>
           <p>
             <i>
-              LunarEclipse fair launch started. let's reach the presale goal!
+              LunarEclipse fair launch Ended. Liquidity is locked for a full year.
               <br/>
             
               <br/>
@@ -282,9 +282,9 @@ export function Dashboard() {
             </i>
             
           </p>
-          <a href="https://dxsale.app/app/pages/defipresale?saleID=1143&chain=BSC">
+          <a href="https://dxsale.app/app/pages/dxlockview?id=1143&add=0&type=lpdefi&chain=BSC">
             <StyledButton>
-              DxSale pre-launch
+              DxLock proof
             </StyledButton>
           </a>
         </StyledArticle>
