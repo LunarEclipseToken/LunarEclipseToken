@@ -254,7 +254,7 @@ export function Dashboard() {
                 </div>
                 <div>Marketcap</div>
               </div>
-              <div className="right">$213,350</div>
+              <div className="right">$933,027</div>
             </div>
             <div className="flex">
               <div className="left">
@@ -263,7 +263,7 @@ export function Dashboard() {
                 </div>
                 <div>Holders</div>
               </div>
-              <div className="right">277</div>
+              <div className="right">1108</div>
             </div>
           </div>
         </StyledArticle>
@@ -341,9 +341,10 @@ export function Dashboard() {
             <div className="text">Marketing on poocoin  <span>Completed</span></div>
           </div>
           <div className="row">
-          <div className="icon notComplete" />
-
-            <div className="text">Reach 1000 holders </div>
+            <div className="icon complete">
+              <FontAwesomeIcon icon={faCheck} />
+            </div>
+            <div className="text">Reach 1000 holders  <span>Completed</span></div>
           </div>
           <div className="row">
           <div className="icon notComplete" />
