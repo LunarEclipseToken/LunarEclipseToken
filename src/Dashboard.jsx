@@ -254,7 +254,7 @@ export function Dashboard() {
                 </div>
                 <div>Marketcap</div>
               </div>
-              <div className="right">$933,027</div>
+              <div className="right">$810,027</div>
             </div>
             <div className="flex">
               <div className="left">
@@ -263,7 +263,7 @@ export function Dashboard() {
                 </div>
                 <div>Holders</div>
               </div>
-              <div className="right">1108</div>
+              <div className="right">3,159</div>
             </div>
           </div>
         </StyledArticle>
