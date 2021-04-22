@@ -352,9 +352,10 @@ export function Dashboard() {
             <div className="text">Audit LunarEclipse Smart Contract </div>
           </div>
           <div className="row">
-          <div className="icon notComplete" />
-
-            <div className="text">Reach 3000 holders </div>
+            <div className="icon complete">
+              <FontAwesomeIcon icon={faCheck} />
+            </div>
+            <div className="text">Reach 3000 holders  <span>Completed</span></div>
           </div>
           <div className="row">
           <div className="icon notComplete" />
